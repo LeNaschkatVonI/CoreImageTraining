@@ -11,6 +11,8 @@
 		89CB2374268B62E60041BDF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB2373268B62E60041BDF9 /* ContentView.swift */; };
 		89CB2376268B62E70041BDF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89CB2375268B62E70041BDF9 /* Assets.xcassets */; };
 		89CB2379268B62E70041BDF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89CB2378268B62E70041BDF9 /* Preview Assets.xcassets */; };
+		89CB2386268CE7C70041BDF9 /* PHPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB2385268CE7C70041BDF9 /* PHPicker.swift */; };
+		89CB2388268E0E910041BDF9 /* beautyButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB2387268E0E910041BDF9 /* beautyButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		89CB2375268B62E70041BDF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89CB2378268B62E70041BDF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89CB237A268B62E70041BDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89CB2385268CE7C70041BDF9 /* PHPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPicker.swift; sourceTree = "<group>"; };
+		89CB2387268E0E910041BDF9 /* beautyButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beautyButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				89CB2371268B62E60041BDF9 /* instaFilterApp.swift */,
-				89CB2373268B62E60041BDF9 /* ContentView.swift */,
+				89CB2384268CE5A80041BDF9 /* View */,
 				89CB2375268B62E70041BDF9 /* Assets.xcassets */,
 				89CB237A268B62E70041BDF9 /* Info.plist */,
 				89CB2377268B62E70041BDF9 /* Preview Content */,
@@ -67,6 +71,16 @@
 				89CB2378268B62E70041BDF9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89CB2384268CE5A80041BDF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89CB2373268B62E60041BDF9 /* ContentView.swift */,
+				89CB2385268CE7C70041BDF9 /* PHPicker.swift */,
+				89CB2387268E0E910041BDF9 /* beautyButtons.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 			files = (
 				89CB2374268B62E60041BDF9 /* ContentView.swift in Sources */,
 				89CB2372268B62E60041BDF9 /* instaFilterApp.swift in Sources */,
+				89CB2386268CE7C70041BDF9 /* PHPicker.swift in Sources */,
+				89CB2388268E0E910041BDF9 /* beautyButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
